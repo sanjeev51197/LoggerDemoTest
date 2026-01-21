@@ -1,0 +1,5 @@
+2026-01-22T00:03:59.412+05:30  INFO 13028 --- [loggingex] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-22T00:03:59.476+05:30  INFO 13028 --- [loggingex] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-01-22T00:03:59.489+05:30  INFO 13028 --- [loggingex] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-22T00:03:59.514+05:30  INFO 13028 --- [loggingex] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-01-22T00:03:59.541+05:30  INFO 13028 --- [loggingex] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
