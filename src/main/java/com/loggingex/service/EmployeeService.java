@@ -87,8 +87,7 @@ public class EmployeeService {
 
     public Page<Employee> getEmployeeWithPagination(int pageNo,int pageSize,String sortBy,String direction)
     {
-      //  logger.info("Fetching employees , PageNo={},PageSize{}",pageNo,pageSize);
-        logger.info("PageNo:{},PageSize:{},SortBy:{},Direction:{}",pageNo,pageSize,sortBy,direction);
+        logger.info("Fetching employees, PageNo:{},PageSize:{},SortBy:{},Direction:{}",pageNo,pageSize,sortBy,direction);
         Sort sort=direction.equalsIgnoreCase("desc")
                 ?Sort.by(sortBy).descending()
                 :Sort.by(sortBy).ascending();
